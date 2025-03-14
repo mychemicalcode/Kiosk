@@ -1,5 +1,4 @@
 package com.example.kiosk.Lv2;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -20,7 +19,7 @@ public class Main {
         menuItems.add(new MenuItem("Teri Burger", 3500, "쇠고기패티에 달콤 짭짤한 데리소스를 더한 가성비 버거"));
 
 
-        // 메뉴화면 출력
+        // 메뉴 화면 출력
         System.out.println();
         System.out.println("[ L O T T E R I A ]");
         System.out.println();
