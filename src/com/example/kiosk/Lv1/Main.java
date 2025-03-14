@@ -32,23 +32,6 @@ public class Main {
 
     }
 }
-//
-//        if (num1 == 1) {
-//            System.out.println("선택하신 메뉴는 1번 Bulgogi Burger입니다.");
-//
-//        } else if (num1 == 2) {
-//            System.out.println("선택하신 메뉴는 2번 Chicken Burger입니다.");
-//
-//        } else if (num1 == 3) {
-//            System.out.println("선택하신 메뉴는 3번 Shrimp Burger입니다.");
-//
-//        } else if (num1 == 4) {
-//            System.out.println("선택하신 메뉴는 4번 Teri Burger입니다.");
-//
-//        } else if (num1 == 0) {
-//            System.out.println("주문을 종료합니다. 감사합니다.");
-//        }
-
 
 
 

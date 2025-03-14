@@ -1,6 +1,5 @@
 package com.example.kiosk.Lv2;
 
-import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -21,7 +20,7 @@ public class Main {
         menuItems.add(new MenuItem("Teri Burger", 3500, "쇠고기패티에 달콤 짭짤한 데리소스를 더한 가성비 버거"));
 
 
-        // 메뉴화명 출력
+        // 메뉴화면 출력
         System.out.println();
         System.out.println("[ L O T T E R I A ]");
         System.out.println();
@@ -31,7 +30,7 @@ public class Main {
         for (int i = 0; i < menuItems.size(); i++) {
             MenuItem item = menuItems.get(i);
             System.out.println((i + 1) + ". " + item.getName() + " " + item.getPrice() + "원");
-            System.out.pzrintln(item.getDescription());
+            System.out.println(item.getDescription());
             System.out.println();
         }
         System.out.println("0. 종료          | 종료  ");
@@ -40,8 +39,8 @@ public class Main {
         System.out.println();
         System.out.println("원하는 메뉴의 숫자를 입력해주세요.");
 
-        //
 
+        // 메뉴 선택 및 종료
         while (!scanner.hasNextInt()) {
             scanner.next();
             System.out.println("입력이 잘못되었습니다. 원하는 메뉴의 숫자를 눌러주세요");
